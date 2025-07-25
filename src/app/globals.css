@@ -1,0 +1,291 @@
+/* @import "tailwindcss";
+
+:root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+   --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* @import "tailwindcss";
+
+body {
+  @apply bg-[#120F29] text-white;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+}
+
+.dark {
+  --background: 276 43% 10%;      
+  --foreground: 0 0% 100%;         
+  --card: 258 19% 38%;             
+  --card-foreground: 0 0% 100%;
+  --muted: 258 19% 38%;
+  --muted-foreground: 0 0% 100%;
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+ */
+
+@import "tailwindcss";
+
+:root {
+  /* Light theme colors */
+  --background: 220 100% 99%; /* White */
+  --foreground: 222.2 84% 4.9%; /* Dark gray */
+  --card: 0 0% 100%; /* hsl(0, 0%, 100%) = #FFFFFF */
+  --card-foreground: 248 24% 10%;
+  --muted: 210 40% 96.1%; /* Light gray */
+  --muted-foreground: 215.4 16.3% 46.9%; /* Medium gray */
+  --primary: 263 70% 50%; /* Purple */
+  --primary-foreground: 0 0% 100%; /* White */
+  --secondary: 210 40% 96.1%; /* Light gray */
+  --secondary-foreground: 222.2 84% 4.9%; /* Dark gray */
+  --border: 218 27% 88%; /* Light border */
+  --accent: 210 40% 96.1%; /* Light accent */
+  --accent-foreground: 222.2 84% 4.9%; /* Dark accent text */
+  --custom-border: 218 27% 88%;
+  --header: 220 100% 99%;
+  --side-bar: 250 65% 7%; /* hsl for #08041D */
+  --form-input: 0 0% 100%;
+  --transfer-background: 228, 100%, 99%, 1;
+  --recent-beneficiaries: 270, 12%, 57%, 0.17;
+  --quick-action-icon-bg: 220 13% 91%;
+}
+
+.dark {
+  /* Dark theme colors */
+  --background: 250, 76%, 6%, 1; /* #120F29 - Main dark background */
+  --foreground: 0 0% 100%; /* White text */
+  --card: 247, 46%, 11%, 1; /* = hsla(248, 18%, 42%, 0.12) = #5E59831F */
+  --card-foreground: 0 0% 100%;
+  --muted: 258 19% 25%; /* Slightly lighter for muted areas */
+  --muted-foreground: 215 20% 75%; /* Light gray text */
+  --primary: 263 70% 60%; /* Purple primary */
+  --primary-foreground: 0 0% 100%; /* White */
+  --secondary: 258 19% 21%; /* Same as card for consistency */
+  --secondary-foreground: 0 0% 100%; /* White */
+  --border: 218 27% 88%; /* Lighter border */
+  --accent: 258 19% 21%; /* Same as card */
+  --accent-foreground: 0 0% 100%; /* White */
+  --custom-border: 247 15% 28%;
+  --header: 247, 46%, 11%, 1;
+  --side-bar: 247, 46%, 11%, 1;
+  --form-input: 247, 46%, 11%, 1;
+  --transfer-background: 247, 46%, 11%, 1;
+  --recent-beneficiaries: 0, 0%, 51%, 0.11;
+  --quick-action-icon-bg: 247, 46%, 11%, 1;;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Force proper theme application */
+.light {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Custom scrollbar for better theme integration */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
+
+/* Ensure table borders work with theme */
+.dark table {
+  border-color: hsl(var(--border));
+}
+
+.dark th,
+.dark td {
+  border-color: hsl(var(--border));
+}
+
+
+
+/* hide scrollbar across all browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
